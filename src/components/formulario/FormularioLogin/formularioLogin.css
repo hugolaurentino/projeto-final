@@ -1,0 +1,167 @@
+.formLoginEmail{
+    width: 30em;
+    height: 15em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.tituloLogin{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    
+    display: flex;
+    align-items: center;
+    color: #343447;
+}
+
+.formLoginEmail label {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    padding-left: 10px;
+  }
+  
+ .formLoginEmail input{
+    padding: 10px 14px;
+    gap: 8px;
+    
+    width: 100%;
+    height: 44px;
+    
+    background: #FFFFFF;
+    
+    border: 1px solid #D0D5DD;
+    
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+  }
+
+.formLoginEmail .inputLoginErro{
+    border: 1px solid #f70511;
+}
+  
+.formLoginSenha{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.formLoginSenhaLabel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formLoginSenhaLabel label{
+    width: 100%;
+    font-family: 'Nunito', sans-serif;    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    padding-left: 10px;
+}
+
+.formLoginSenhaLabel strong{
+    width: 50%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    
+    color: #DA0175;
+    cursor: pointer;
+}
+
+.btn{
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 40px;
+    gap: 4px;
+    
+    width: 160px;
+    height: 33px;
+    
+    background: #DA0175;
+    border-radius: 10px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: #F8F8F9;
+    cursor: pointer;
+}
+
+.textoCadastre span{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #3F3F55;
+}
+
+.textoCadastre strong{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #DA0175;
+    cursor: pointer;
+}
+
+.erro{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #DA0175; 
+}
+
+.posicaoSelha{
+    position: relative;
+
+    width: 100%;
+    height: 44px;
+}
+
+.posicaoImagem{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
